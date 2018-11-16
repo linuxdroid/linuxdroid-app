@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.linuxdroid"
     android:installLocation="internalOnly"
-    android:sharedUserId="com.termux"
+    android:sharedUserId="com.linuxdroid"
     android:sharedUserLabel="@string/shared_user_label" >
 
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
@@ -56,7 +56,7 @@
         <activity
             android:name="com.linuxdroid.filepicker.LinuxdroidFileReceiverActivity"
             android:label="@string/application_name"
-            android:taskAffinity="com.termux.filereceiver"
+            android:taskAffinity="com.linuxdroid.filereceiver"
             android:excludeFromRecents="true"
             android:resizeableActivity="true"
             android:noHistory="true">

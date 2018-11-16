@@ -88,7 +88,7 @@ public final class LinuxdroidViewClient implements TerminalViewClient {
                 mActivity.doPaste();
             } else if (unicodeChar == '+' || e.getUnicodeChar(KeyEvent.META_SHIFT_ON) == '+') {
                 // We also check for the shifted char here since shift may be required to produce '+',
-                // see https://github.com/termux/termux-api/issues/2
+                // see https://github.com/linuxdroid/linuxdroid-api/issues/2
                 mActivity.changeFontSize(true);
             } else if (unicodeChar == '-') {
                 mActivity.changeFontSize(false);

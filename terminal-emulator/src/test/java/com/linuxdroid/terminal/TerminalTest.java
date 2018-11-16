@@ -57,7 +57,7 @@ public class TerminalTest extends TerminalTestCase {
 		assertEquals("\033[<0;3;4m", mOutput.getOutputAndClear());
 
 		// When the client says that a click is outside (which could happen when pixels are outside
-		// the terminal area, see https://github.com/termux/termux-app/issues/501) the terminal
+		// the terminal area, see https://github.com/linuxdroid/linuxdroid-app/issues/501) the terminal
 		// sends a click at the edge.
 		mTerminal.sendMouseEvent(TerminalEmulator.MOUSE_LEFT_BUTTON, 0, 0, true);
 		assertEquals("\033[<0;1;1M", mOutput.getOutputAndClear());

@@ -566,15 +566,15 @@ public final class LinuxdroidActivity extends Activity implements ServiceConnect
                 .setPositiveButton(android.R.string.ok, null).show();
         } else {
             if (mTermService.getSessions().size() == 0 && !mTermService.isWakelockEnabled()) {
-                File termuxTmpDir = new File(LinuxdroidService.PREFIX_PATH + "/tmp");
-                if (termuxTmpDir.exists()) {
+                File linuxdroidTmpDir = new File(LinuxdroidService.PREFIX_PATH + "/tmp");
+                if (linuxdroidTmpDir.exists()) {
                     try {
-                        LinuxdroidInstaller.deleteFolder(termuxTmpDir);
+                        LinuxdroidInstaller.deleteFolder(linuxdroidTmpDir);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
 
-                    termuxTmpDir.mkdirs();
+                    linuxdroidTmpDir.mkdirs();
                 }
             }
             String executablePath = (failSafe ? "/system/bin/sh" : null);

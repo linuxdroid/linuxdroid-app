@@ -1,19 +1,19 @@
-[![Travis build status](https://travis-ci.org/termux/termux-app.svg?branch=master)](https://travis-ci.org/termux/termux-app)
-[![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
+[![Travis build status](https://travis-ci.org/linuxdroid/linuxdroid-app.svg?branch=master)](https://travis-ci.org/linuxdroid/linuxdroid-app)
+[![Join the chat at https://gitter.im/linuxdroid/linuxdroid](https://badges.gitter.im/linuxdroid/linuxdroid.svg)](https://gitter.im/linuxdroid/linuxdroid)
 
 
 Linuxdroid app
 ==========
 
-[Linuxdroid](https://termux.com) is an Android terminal app and Linux environment.
+[Linuxdroid](https://linuxdroid.com) is an Android terminal app and Linux environment.
 
-* [Linuxdroid on Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
-* [Linuxdroid on F-Droid](https://f-droid.org/repository/browse/?fdid=com.termux)
-* [Linuxdroid Google+ community](http://termux.com/community/)
-* [Linuxdroid Wiki](https://wiki.termux.com/wiki/)
-* [Linuxdroid Twitter](http://twitter.com/termux/)
+* [Linuxdroid on Google Play Store](https://play.google.com/store/apps/details?id=com.linuxdroid)
+* [Linuxdroid on F-Droid](https://f-droid.org/repository/browse/?fdid=com.linuxdroid)
+* [Linuxdroid Google+ community](http://linuxdroid.com/community/)
+* [Linuxdroid Wiki](https://wiki.linuxdroid.com/wiki/)
+* [Linuxdroid Twitter](http://twitter.com/linuxdroid/)
 
-Note that this repository is for the app itself (the user interface and the terminal emulation). For the packages installable inside the app, see [termux/termux-packages](https://github.com/termux/termux-packages)
+Note that this repository is for the app itself (the user interface and the terminal emulation). For the packages installable inside the app, see [linuxdroid/linuxdroid-packages](https://github.com/linuxdroid/linuxdroid-packages)
 
 Terminal resources
 ==================

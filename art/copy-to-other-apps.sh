@@ -8,7 +8,7 @@ for DENSITY in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
 
 		# Update other apps:
 		for APP in api boot styling tasker widget; do
-			APPDIR=../../termux-$APP
+			APPDIR=../../linuxdroid-$APP
 			if [ -d $APPDIR ]; then
 				APP_FOLDER=$APPDIR/app/src/main/res/mipmap-$DENSITY
 				mkdir -p $APP_FOLDER

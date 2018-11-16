@@ -42,7 +42,7 @@ import java.util.List;
  */
 public final class LinuxdroidService extends Service implements SessionChangedCallback {
 
-    private static final String NOTIFICATION_CHANNEL_ID = "termux_notification_channel";
+    private static final String NOTIFICATION_CHANNEL_ID = "linuxdroid_notification_channel";
 
     /** Note that this is a symlink on the Android M preview. */
     @SuppressLint("SdCardPath")

@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Generating feature graphics to ~/termux-icons/termux-feature-graphic.png..."
-mkdir -p ~/termux-icons/
-rsvg-convert feature-graphic.svg > ~/termux-icons/feature-graphic.png
+echo "Generating feature graphics to ~/linuxdroid-icons/linuxdroid-feature-graphic.png..."
+mkdir -p ~/linuxdroid-icons/
+rsvg-convert feature-graphic.svg > ~/linuxdroid-icons/feature-graphic.png
