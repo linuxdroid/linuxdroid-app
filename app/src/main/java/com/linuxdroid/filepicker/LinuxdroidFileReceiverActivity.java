@@ -24,7 +24,7 @@ import java.nio.charset.StandardCharsets;
 
 public class LinuxdroidFileReceiverActivity extends Activity {
 
-    static final String TERMUX_RECEIVEDIR = LinuxdroidService.FILES_PATH + "/home/downloads";
+    static final String LINUXDROID_RECEIVEDIR = LinuxdroidService.FILES_PATH + "/home/downloads";
     static final String EDITOR_PROGRAM = LinuxdroidService.HOME_PATH + "/bin/linuxdroid-file-editor";
     static final String URL_OPENER_PROGRAM = LinuxdroidService.HOME_PATH + "/bin/linuxdroid-url-opener";
 
@@ -135,7 +135,7 @@ public class LinuxdroidFileReceiverActivity extends Activity {
                 if (saveStreamWithName(in, text) == null) return;
 
                 Intent executeIntent = new Intent(LinuxdroidService.ACTION_EXECUTE);
-                executeIntent.putExtra(LinuxdroidService.EXTRA_CURRENT_WORKING_DIRECTORY, TERMUX_RECEIVEDIR);
+                executeIntent.putExtra(LinuxdroidService.EXTRA_CURRENT_WORKING_DIRECTORY, LINUXDROID_RECEIVEDIR);
                 executeIntent.setClass(LinuxdroidFileReceiverActivity.this, LinuxdroidService.class);
                 startService(executeIntent);
                 finish();
@@ -146,7 +146,7 @@ public class LinuxdroidFileReceiverActivity extends Activity {
     }
 
     public File saveStreamWithName(InputStream in, String attachmentFileName) {
-        File receiveDir = new File(TERMUX_RECEIVEDIR);
+        File receiveDir = new File(LINUXDROID_RECEIVEDIR);
         if (!receiveDir.isDirectory() && !receiveDir.mkdirs()) {
             showErrorDialogAndQuit("Cannot create directory: " + receiveDir.getAbsolutePath());
             return null;

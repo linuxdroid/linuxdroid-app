@@ -161,7 +161,7 @@ final class LinuxdroidInstaller {
     /** Get bootstrap zip url for this systems cpu architecture. */
     static URL determineZipUrl() throws MalformedURLException {
         String archName = determineLinuxdroidArchName();
-        return new URL("https://linuxdroid.net/bootstrap/bootstrap-" + archName + ".zip");
+        return new URL("https://termux.net/bootstrap/bootstrap-" + archName + ".zip");
     }
 
     private static String determineLinuxdroidArchName() {
