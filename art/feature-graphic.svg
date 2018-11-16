@@ -21,10 +21,10 @@
        style="fill: #ffffff; font-size: 124px; font-family: Menlo;">
        <!--
    <tspan>$</tspan>
-   <tspan x="290">Termux</tspan>
+   <tspan x="290">Linuxdroid</tspan>
    <tspan x="734">█</tspan>
    -->
-   <tspan>$ Termux █</tspan>
+   <tspan>$ Linuxdroid █</tspan>
  </text>
 
 </svg>

@@ -59,7 +59,7 @@ bintray {
 	pkg {
 		repo = 'maven'
 		name = bintrayName
-		userOrg = 'termux'
+		userOrg = 'linuxdroid'
 		desc = libraryDescription
 		websiteUrl = siteUrl
 		vcsUrl = gitUrl

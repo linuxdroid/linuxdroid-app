@@ -10,7 +10,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.termux"
+        applicationId "com.linuxdroid"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 65

@@ -26,7 +26,7 @@ script:
 addons:
   coverity_scan:
     project:
-      name: "termux/termux-app"
+      name: "linuxdroid/linuxdroid-app"
       description: "Terminal emulator and Linux environment for Android"
     notification_email: fredrik@fornwall.net
     build_command_prepend: "./gradlew clean"

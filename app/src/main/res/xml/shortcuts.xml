@@ -8,7 +8,7 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.RUN"
-            android:targetPackage="com.termux"
-            android:targetClass="com.termux.app.TermuxActivity"/>
+            android:targetPackage="com.linuxdroid"
+            android:targetClass="com.linuxdroid.app.LinuxdroidActivity"/>
     </shortcut>
 </shortcuts>

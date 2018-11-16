@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.termux"
+    package="com.linuxdroid"
     android:installLocation="internalOnly"
     android:sharedUserId="com.termux"
     android:sharedUserLabel="@string/shared_user_label" >
@@ -21,7 +21,7 @@
         android:icon="@mipmap/ic_launcher"
         android:banner="@drawable/banner"
         android:label="@string/application_name"
-        android:theme="@style/Theme.Termux"
+        android:theme="@style/Theme.Linuxdroid"
         android:supportsRtl="false" >
 
         <!-- This (or rather, value 2.1 or higher) is needed to make the Samsung Galaxy S8
@@ -29,7 +29,7 @@
         <meta-data android:name="android.max_aspect" android:value="10.0" />
 
         <activity
-            android:name="com.termux.app.TermuxActivity"
+            android:name="com.linuxdroid.app.LinuxdroidActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
@@ -46,15 +46,15 @@
         </activity>
 
         <activity
-            android:name="com.termux.app.TermuxHelpActivity"
+            android:name="com.linuxdroid.app.LinuxdroidHelpActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Material.Light.DarkActionBar"
-            android:parentActivityName=".app.TermuxActivity"
+            android:parentActivityName="com.linuxdroid.app.LinuxdroidActivity"
             android:resizeableActivity="true"
             android:label="@string/application_name" />
 
         <activity
-            android:name="com.termux.filepicker.TermuxFileReceiverActivity"
+            android:name="com.linuxdroid.filepicker.LinuxdroidFileReceiverActivity"
             android:label="@string/application_name"
             android:taskAffinity="com.termux.filereceiver"
             android:excludeFromRecents="true"
@@ -86,7 +86,7 @@
 
         <activity-alias
             android:name=".HomeActivity"
-            android:targetActivity="com.termux.app.TermuxActivity">
+            android:targetActivity="com.linuxdroid.app.LinuxdroidActivity">
 
             <!-- Launch activity automatically on boot on Android Things devices -->
             <intent-filter>
@@ -97,8 +97,8 @@
         </activity-alias>
 
         <provider
-            android:name=".filepicker.TermuxDocumentsProvider"
-            android:authorities="com.termux.documents"
+            android:name="com.linuxdroid.filepicker.LinuxdroidDocumentsProvider"
+            android:authorities="com.linuxdroid.documents"
             android:grantUriPermissions="true"
             android:exported="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -108,16 +108,16 @@
         </provider>
 
         <service
-            android:name="com.termux.app.TermuxService"
+            android:name="com.linuxdroid.app.LinuxdroidService"
             android:exported="false" />
 
-        <receiver android:name=".app.TermuxOpenReceiver" />
+        <receiver android:name="com.linuxdroid.app.LinuxdroidOpenReceiver" />
 
-        <provider android:authorities="com.termux.files"
+        <provider android:authorities="com.linuxdroid.files"
                   android:readPermission="android.permission.permRead"
                   android:exported="true"
                   android:grantUriPermissions="true"
-                  android:name="com.termux.app.TermuxOpenReceiver$ContentProvider" />
+                  android:name="com.linuxdroid.app.LinuxdroidOpenReceiver$ContentProvider" />
 
         <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
     </application>

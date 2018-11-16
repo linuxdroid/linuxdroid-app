@@ -2,16 +2,16 @@
 [![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
 
 
-Termux app
+Linuxdroid app
 ==========
 
-[Termux](https://termux.com) is an Android terminal app and Linux environment.
+[Linuxdroid](https://termux.com) is an Android terminal app and Linux environment.
 
-* [Termux on Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
-* [Termux on F-Droid](https://f-droid.org/repository/browse/?fdid=com.termux)
-* [Termux Google+ community](http://termux.com/community/)
-* [Termux Wiki](https://wiki.termux.com/wiki/)
-* [Termux Twitter](http://twitter.com/termux/)
+* [Linuxdroid on Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
+* [Linuxdroid on F-Droid](https://f-droid.org/repository/browse/?fdid=com.termux)
+* [Linuxdroid Google+ community](http://termux.com/community/)
+* [Linuxdroid Wiki](https://wiki.termux.com/wiki/)
+* [Linuxdroid Twitter](http://twitter.com/termux/)
 
 Note that this repository is for the app itself (the user interface and the terminal emulation). For the packages installable inside the app, see [termux/termux-packages](https://github.com/termux/termux-packages)
 
@@ -29,4 +29,4 @@ Terminal emulators
 * hterm: JavaScript terminal implementation from Chromium. [Source](https://github.com/chromium/hterm), including [tests](https://github.com/chromium/hterm/blob/master/js/hterm_vt_tests.js), and [Google group](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-hterm).
 * xterm: The grandfather of terminal emulators. [Source](http://invisible-island.net/datafiles/release/xterm.tar.gz).
 * Connectbot: Android SSH client. [Source](https://github.com/connectbot/connectbot)
-* Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator).
+* Android Terminal Emulator: Android terminal app which Linuxdroid terminal handling is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator).

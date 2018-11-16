@@ -7,12 +7,12 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayName = 'terminal-view'
-    publishedGroupId = 'com.termux'
+    publishedGroupId = 'com.linuxdroid'
     libraryName = 'TerminalView'
     artifact = 'terminal-view'
-    libraryDescription = 'The terminal view used in Termux'
-    siteUrl = 'https://github.com/termux/termux'
-    gitUrl = 'https://github.com/termux/termux.git'
+    libraryDescription = 'The terminal view used in Linuxdroid'
+    siteUrl = 'https://github.com/linuxdroid/linuxdroid'
+    gitUrl = 'https://github.com/linuxdroid/linuxdroid.git'
     libraryVersion = '0.50'
 }
 
