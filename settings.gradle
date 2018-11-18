@@ -1,1 +1,1 @@
-include ':app', ':terminal-emulator', ':terminal-view'
+include ':android-app', ':terminal-emulator', ':terminal-view'
